@@ -2,6 +2,17 @@
     "particles": {
         "number": {
             "value": 100
+        },
+        "color": {
+            "value": "#fff"
+        },
+        "opacity": {
+            "value": 0.5,
+            "random": true,
+            "anim": {
+                "enable": true,
+                "speed": 1
+            }
         }
     }
 }
