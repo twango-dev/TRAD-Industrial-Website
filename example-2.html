@@ -6,7 +6,25 @@
         <!--Webhosted-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <!--Local-->
+        <link rel="stylesheet" href="./example-2.css">
     </head>
+    <body>
+        <nav>
+            <div class="container">
+                <img src="./assets/LOGO.png" id="logo">
+            </div>
+        </nav>
+        <!--Scripts-->
+        <div id="particles-js"></div>
+        <script src="https://www.jsdelivr.com/package/npm/particles.js"></script>
+        <script>
+            particlesJS.load('particles-js', './particles.json',
+            function(){
+                console.log('Particles Loaded')
+            })
+        </script>
+    </body>
 </html>
