@@ -199,11 +199,34 @@ nav ul li a:hover {
 		display:block;
 		margin:5px 0;
 	}
+	.copyright {
+		display: block;
+	}
+	.footer-links {
+		display: block;
+	}
 }
 .content {
 	width:100%;
-	margin-top:200px;
 	font-size:20px;
 	color: #333;
 	text-align: center;
+}
+.footer {
+	color: #333;
+	font-size: 15px;
+	background-color: rgb(204, 204, 204);
+	text-align: center;
+	text-decoration: none;
+}
+.copyright {
+	width: 33%;
+	padding: 20px 0px;
+	display: inline-block;
+	margin: 0px;
+}
+.footer-links {	
+	width: 33%;
+	padding: 20px 0px;
+	display: inline-block;
 }
