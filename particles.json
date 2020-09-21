@@ -1,7 +1,7 @@
 {
     "particles": {
         "number": {
-            "value": 100
+            "value": 150
         },
         "color": {
             "value": "#fff"
@@ -12,6 +12,24 @@
             "anim": {
                 "enable": true,
                 "speed": 1
+            }
+        },
+        "size": 3
+    },
+    "interactivity": {
+        "events": {
+            "onhover": {
+                "enabled": "true",
+                "mode": "repulse"
+            },
+            "onclick": {
+                "enabled": "false"
+            }
+        },
+        "modes": {
+            "repulse": {
+                "distance": 10,
+                "duration": 0.4
             }
         }
     }
